@@ -1,7 +1,6 @@
 import React from 'react'
 import './Portfolio.css'
 
-import Img1 from '../../assets/1.png';
 import ecom from '../../assets/ecom1.png';
 import budget from '../../assets/budget.png';
 
