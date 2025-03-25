@@ -2,9 +2,7 @@ import React from 'react'
 import './Portfolio.css'
 
 import ecom from '/src/assets/ecom1.png';
-// import budget from '/src/assets/budget.png';
-import BudgetImage from "/src/assets/Budget.png";
-
+import budget from '/src/assets/budget.png';
 
 import pos from '/src/assets/pos.png';
 
@@ -33,7 +31,7 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={BudgetImage} alt="portfolio item" />
+            <img src={budget} alt="portfolio item" />
 
           </div>
           <h3>Budget management system</h3>
