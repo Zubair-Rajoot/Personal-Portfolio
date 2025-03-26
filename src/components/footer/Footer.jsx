@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+
 
 
 const Footer = () => {
@@ -18,8 +19,8 @@ const Footer = () => {
         <div className="footer__socials">
           {/* <a href="#"><FaFacebookF /></a>
           <a href="#"><FaTwitter /></a> */}
-          <a href="#"><FaInstagram /></a>
-          <a href="#"><FaLinkedinIn /></a>
+          <a href="https://www.linkedin.com/in/muhammad-zubair--/" target="_blank"><FaLinkedinIn /></a>
+                <a href="https://github.com/Zubair-Rajoot" target="_blank"><FaGithub /></a>
         </div>
         <p className="footer__copyright">© 2025 Muhammad Zubair. All Rights Reserved.</p>
       </div>
