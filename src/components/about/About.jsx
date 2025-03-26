@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from '/src/assets/zubair.png';
+import Me from '../../assets/zubair.png';
 import { FaAward } from "react-icons/fa6";
 import { TiFolderOpen } from "react-icons/ti";
 import { PiCertificateLight } from "react-icons/pi";

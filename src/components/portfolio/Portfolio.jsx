@@ -1,10 +1,10 @@
 import React from 'react'
 import './Portfolio.css'
 
-import ecom from '/src/assets/ecom1.png';
-import budget from '/src/assets/budget.png';
+import ecom from '../../assets/ecom1.png';
+import budget from '../../assets/budget.png';
 
-import pos from '/src/assets/pos.png';
+import pos from '../../assets/pos.png';
 
 const Portfolio = () => {
   return (
