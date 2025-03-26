@@ -1,6 +1,6 @@
 import React from 'react';
 import CTA from './CTA';
-import Me from '../../assets/Muhammad Zubair.png';
+import Me from '/assets/Muhammad Zubair.png';
 import HeaderSocials from './HeaderSocials';
 import './Header.css'
 
