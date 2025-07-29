@@ -6,6 +6,7 @@ import budget from '/assets/budget.png';
 
 import pos from '/assets/pos.png';
 import opti from '/assets/optima.png';
+import therapy from '/assets/therapy.png';
 
 const Portfolio = () => {
   return (
@@ -16,7 +17,19 @@ const Portfolio = () => {
 
 
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
+       <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={therapy} alt="portfolio item" />
+
+          </div>
+          <h3>  Mind Therapy </h3>
+          <div className="portfolio__item-cta">
+          <a href="https://therapysession.ai/" className='btn' target="_blank">Website link</a>
+          {/* <a href="https://dribbble.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
+          </div>
+          </article>  
+
+            <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={ecom} alt="portfolio item" />
 
@@ -26,21 +39,7 @@ const Portfolio = () => {
           <a href="https://github.com/Zubair-Rajoot/Ecommerce-Mern" className='btn' target="_blank">Github link</a>
           {/* <a href="https://dribbble.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
           </div>
-        </article>   
-
-
-
-       <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={budget} alt="portfolio item" />
-
-          </div>
-          <h3>  Mind Therapy </h3>
-          <div className="portfolio__item-cta">
-          <a href="https://therapysession.ai/" className='btn' target="_blank">Website link</a>
-          {/* <a href="https://dribbble.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
-          </div>
-          </article>  
+        </article>
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
