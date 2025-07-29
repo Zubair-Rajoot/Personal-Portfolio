@@ -83,6 +83,15 @@ const Experience = () => {
               </article>
 
 
+               <article className='experience__details'>
+              <BsFillCloudCheckFill className='experience__icon' />
+             <div>
+             <h4>REACT Native - App development</h4>
+             <small className='text-light'>Experienced</small>
+             </div>
+              </article>
+
+
               <article className='experience__details'>
               <BsFillCloudCheckFill className='experience__icon' />
               <div>
@@ -124,13 +133,23 @@ const Experience = () => {
               </div>
               </article>
 
-              <article className='experience__details'>
+              {/* <article className='experience__details'>
               <BsFillCloudCheckFill className='experience__icon' />
              <div>
              <h4>MySql</h4>
              <small className='text-light'>Experienced</small>
              </div>
+              </article> */}
+
+              <article className='experience__details'>
+              <BsFillCloudCheckFill className='experience__icon' />
+              <div>
+              <h4>AWS - lightSail</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
               </article>
+
+              
              
             </div>
         </div>

@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="footer__socials">
           {/* <a href="#"><FaFacebookF /></a>
           <a href="#"><FaTwitter /></a> */}
-          <a href="https://www.linkedin.com/in/muhammad-zubair--/" target="_blank"><FaLinkedinIn /></a>
+          {/* <a href="https://www.linkedin.com/in/muhammad-zubair--/" target="_blank"><FaLinkedinIn /></a> */}
                 <a href="https://github.com/Zubair-Rajoot" target="_blank"><FaGithub /></a>
         </div>
         <p className="footer__copyright">© 2025 Muhammad Zubair. All Rights Reserved.</p>

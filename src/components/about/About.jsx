@@ -34,15 +34,15 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>1+ year working</small>
+              <small>3+ year working</small>
 
             </article>
 
 
             <article className='about__card'>
               <PiCertificateLight className='about__icon' />
-              <h5>Certification</h5>
-              <small>Seebiz pvt ltd</small>
+              <h5>Platform</h5>
+              <small>ThinkBinary</small>
 
             </article>
 
@@ -59,9 +59,7 @@ const About = () => {
           </div>
 
 
-          <p>Hi, I'm Muhammad Zubair, a web developer skilled in JavaScript React,Angular, RESTful
-APIs, Node.js and express. I build dynamic full stack applications and create beautiful UIs
-with HTML and CSS, tailwind, Ant Design and material UI. Experienced in integrating real time updates with Socket.io and efficient media management using Cloudinary and multer.</p>
+          <p>I build powerful web and mobile apps with a strong focus on real-world solutions and client satisfaction. Experienced with Optima Geeks, Tecmatic, and SeeBiz, I follow the complete software development lifecycle with a professional team to deliver high-quality results. Let's turn your ideas into reality!.</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 

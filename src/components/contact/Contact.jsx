@@ -48,8 +48,8 @@ const Contact = () => {
           <article className="contact__option">
             <SiWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
-            <h5>03200657336</h5>
-            <a href="https://wa.me/923200657336" target="_blank" rel="noopener noreferrer">
+            <h5>03496000672</h5>
+            <a href="https://wa.me/923496000672" target="_blank" rel="noopener noreferrer">
               Send a Message
             </a>
 

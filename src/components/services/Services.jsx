@@ -97,6 +97,65 @@ const services = () => {
         </article>
 
 
+
+   <article className='service'>
+          <div className="service__head">
+            <h3>React Native Developer</h3>
+          </div>
+
+          <ul className='service__list'>
+
+          <li> <IoIosCheckmark className='service__list-icon' />
+          <p>State manegment with redux tool kit </p>
+          </li>
+
+
+          <li> <IoIosCheckmark className='service__list-icon' />
+          <p>Attractive Ui mobile design</p>
+          </li>
+
+
+          {/* <li> <IoIosCheckmark className='service__list-icon' />
+          <p>MongoDB Database Management</p>
+          </li> */}
+
+
+          <li> <IoIosCheckmark className='service__list-icon' />
+          <p> Performance & Security Optimization</p>
+          </li>
+
+
+          <li> <IoIosCheckmark className='service__list-icon' />
+          <p>Real-Time Features (Socket.io)</p>
+          </li>
+
+           <li> <IoIosCheckmark className='service__list-icon' />
+          <p>Debugging</p>
+          </li>
+
+          <li> <IoIosCheckmark className='service__list-icon' />
+          <p>Secure Authentication (JWT, OAuth)</p>
+          </li>
+
+
+
+          
+          {/* <li> <IoIosCheckmark className='service__list-icon' />
+          <p> Role-Based Access Control (RBAC)</p>
+          </li> */}
+
+
+          </ul>
+
+
+      
+
+
+
+        </article>
+
+
+
         <article className='service'>
           <div className="service__head">
             <h3>UI Design</h3>
