@@ -12,7 +12,7 @@ const Portfolio = () => {
   return (
     <section id='Portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Sample Projects</h2>
 
 
 

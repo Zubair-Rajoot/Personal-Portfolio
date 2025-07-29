@@ -44,8 +44,8 @@ header {
 /* ============ Profile Image ============ */
 .me img {
     background: var(--color-primary);
-    width: 15rem;
-    height: 15rem;
+    width: 19rem;
+    height: 19rem;
     margin: 2rem auto;
     border-radius: 50%;
     object-fit: cover;

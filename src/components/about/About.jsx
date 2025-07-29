@@ -3,6 +3,7 @@ import Me from '/assets/zubair.png';
 import { FaAward } from "react-icons/fa6";
 import { TiFolderOpen } from "react-icons/ti";
 import { PiCertificateLight } from "react-icons/pi";
+import about from '/assets/about.webp';
 import './About.css';
 
 
@@ -12,14 +13,14 @@ const About = () => {
     <section id='about'>
 
       <h5>Get To know</h5>
-      <h2>About Me</h2>
+      <h2>About Us</h2>
 
       <div className="container about__container">
 
 
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Me} alt="About Me" />
+            <img src={about} alt="About Me" />
           </div>
 
 
@@ -59,7 +60,7 @@ const About = () => {
           </div>
 
 
-          <p>I build powerful web and mobile apps with a strong focus on real-world solutions and client satisfaction. Experienced with Optima Geeks, Tecmatic, and SeeBiz, I follow the complete software development lifecycle with a professional team to deliver high-quality results. Let's turn your ideas into reality!.</p>
+          <p>we build powerful web and mobile apps with a strong focus on real-world solutions and client satisfaction. Experienced with Optima Geeks, Tecmatic, and SeeBiz, I follow the complete software development lifecycle with a professional team to deliver high-quality results. Let's turn your ideas into reality!.</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
