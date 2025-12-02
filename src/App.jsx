@@ -10,6 +10,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Chatbot from './components/chatbot/Chatbot';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     {/* <Testimonials/> */}
     <Contact/>
     <Footer/>
+    <Chatbot/>
     </>
   )
 }
